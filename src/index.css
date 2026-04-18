@@ -40,3 +40,15 @@ body { margin:0; font-family: Inter, system-ui, Arial; background:var(--bg); col
 .theme-switcher{ display:flex; gap:0.5rem }
 .theme-btn{ background:transparent; border:1px solid var(--card); padding:0.4rem 0.6rem; border-radius:6px; cursor:pointer; color:var(--text) }
 .theme-btn.active{ background:var(--accent); color:white }
+
+.modal-overlay{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,0.4); z-index:1000 }
+.modal{ background:var(--bg); color:var(--text); border-radius:8px; padding:1rem; width:clamp(280px,50%,680px); box-shadow:0 8px 30px rgba(0,0,0,0.2); border:1px solid var(--card) }
+.modal-header{ display:flex; justify-content:space-between; align-items:center }
+.modal-close{ background:transparent; border:0; font-size:1.2rem; cursor:pointer }
+.modal-body{ margin-top:0.5rem }
+
+.contact-form label{ display:block; margin-bottom:0.25rem }
+.contact-form input, .contact-form textarea{ width:100%; padding:0.5rem; border-radius:6px; border:1px solid var(--card); background:transparent; color:var(--text) }
+.contact-form textarea{ min-height:120px }
+.contact-form .error{ color:crimson; font-size:0.9rem }
+.btn-primary{ background:var(--accent); color:white; padding:0.6rem 0.9rem; border-radius:6px; border:0; cursor:pointer }
