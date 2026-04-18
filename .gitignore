@@ -11,25 +11,17 @@ yarn-debug.log*
 yarn-error.log*
 
 # Editor
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Env
-.env
-.env.local
-.env.*.local
-
-# optional npm cache
 .npm/
 node_modules/
+dist/
+/.vite
+coverage/
+.DS_Store
+*.log
+/.idea/
+/.vscode/
+out/
+/.cache/
 dist/
 /.env
 /.env.local
