@@ -36,3 +36,7 @@ body { margin:0; font-family: Inter, system-ui, Arial; background:var(--bg); col
 .grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem }
 .card{ background:var(--card); padding:1rem; border-radius:8px }
 .site-footer{ border-top:1px solid var(--card); padding:1rem 0; margin-top:2rem }
+
+.theme-switcher{ display:flex; gap:0.5rem }
+.theme-btn{ background:transparent; border:1px solid var(--card); padding:0.4rem 0.6rem; border-radius:6px; cursor:pointer; color:var(--text) }
+.theme-btn.active{ background:var(--accent); color:white }
